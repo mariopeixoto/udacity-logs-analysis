@@ -7,6 +7,9 @@ This project queries a large database with over a million records to answer 3 qu
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
 
+It connects to a PostgreSQL database, run the queries and print out the results - each in its own format.
+It uses the `log` table to determine the number of views of each article and the number of errors per day.
+
 ## How to run
 
 ### Pre-requisites
