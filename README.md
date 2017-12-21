@@ -38,7 +38,6 @@ GROUP BY day;
 Execute `python logs.py` to run the reporting tool (example response below).
 
 ```
-vagrant@vagrant:/vagrant/logs-analysis$ python logs.py 
 1. What are the most popular three articles of all time?
 "Candidate is jerk, alleges rival" -- 338647 views 
 "Bears love berries, alleges bear" -- 253801 views 
