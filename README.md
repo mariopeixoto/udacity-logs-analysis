@@ -28,8 +28,8 @@ After that, create the following views in the `news` database:
 
 ```sql
 CREATE VIEW error_pct_by_day_view AS
-SELECT 
-	ROUND(
+SELECT
+  ROUND(
     SUM(CASE l.status WHEN '200 OK' THEN 0 ELSE 1 END)*100.0/COUNT(l.id)
   ,2) AS error_pct,
   date(time) AS day
