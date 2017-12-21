@@ -1,20 +1,20 @@
-#Logs Analysis
+# Logs Analysis
 
-##About
+## About
 This project queries a large database with over a million records to answer 3 questions:
 
 1. What are the most popular three articles of all time?
 2. Who are the most popular article authors of all time?
 3. On which days did more than 1% of requests lead to errors?
 
-##How to run
+## How to run
 
-###Pre-requisites
+### Pre-requisites
 
 1. [VirtualBox](https://www.virtualbox.org/)
 2. [Vagrant](https://www.vagrantup.com/)
 
-###Installation
+### Installation
 Install VirtualBox, Vagrant and clone [this repository](https://github.com/udacity/fullstack-nanodegree-vm).
 Launch the Vagrant VM by running `vagrant up`. SSH into the newly created VM by running `vagrant ssh`.
 
@@ -34,7 +34,7 @@ FROM log l
 GROUP BY day;
 ```
 
-###Running
+### Running
 Execute `python logs.py` to run the reporting tool (example response below).
 
 ```
